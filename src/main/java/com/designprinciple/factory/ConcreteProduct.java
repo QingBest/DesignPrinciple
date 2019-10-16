@@ -6,7 +6,7 @@ package com.designprinciple.factory;
  * @User Administrator
  * @Date 2019/10/15
  **/
-public class ConcreteProduct extends Product {
+public class ConcreteProduct extends AbstractProduct {
     public void method2() {
         //具体产品的操作
     }

@@ -7,5 +7,5 @@ package com.designprinciple.factory;
  * @Date 2019/10/15
  **/
 public abstract class AbstractFactory {
-    public abstract <T extends Product> T createProduct(Class<T> c);
+    public abstract <T extends AbstractProduct> T createProduct(Class<T> c);
 }

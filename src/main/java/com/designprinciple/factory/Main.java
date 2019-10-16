@@ -8,8 +8,8 @@ package com.designprinciple.factory;
  **/
 public class Main {
     public static void main(String[] args){
-        AbstractFactory abstractFactory = new Factory();
+        AbstractFactory abstractFactory = new ConcreteFactory();
         //只需这里改变产品即可生产不同的产品
-        Product product = abstractFactory.createProduct(ConcreteProduct.class);
+        AbstractProduct product = abstractFactory.createProduct(ConcreteProduct.class);
     }
 }
