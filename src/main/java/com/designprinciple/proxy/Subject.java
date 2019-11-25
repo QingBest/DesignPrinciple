@@ -1,7 +1,7 @@
 package com.designprinciple.proxy;
 
 /**
- * @ClassName Subject
+ * @ClassName AbstractSubject
  * @Description 抽象主题角色，可以是抽象类或接口
  * @User Administrator
  * @Date 2019/10/17
