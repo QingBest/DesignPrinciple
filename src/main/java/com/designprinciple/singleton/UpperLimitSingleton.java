@@ -14,19 +14,15 @@ public class UpperLimitSingleton {
     public static final int maxNumber = 2;
     //静态实例列表
     public static ArrayList<UpperLimitSingleton> upperlimitsingleton = new ArrayList<UpperLimitSingleton>();
-    //实例的属性列表
-    public static ArrayList<String> vars = new ArrayList<String>();
     //初始化所有实例
     static {
         for (int i =0 ; i<maxNumber ;i++ ){
-            upperlimitsingleton.add(new UpperLimitSingleton(String.valueOf(i)));
+            upperlimitsingleton.add(new UpperLimitSingleton());
         }
     }
-    //添加实例的属性
-    private UpperLimitSingleton( String i ){
-        vars.add(i);
-    }
+    private UpperLimitSingleton(){}
 
+    //随机获取
     public static UpperLimitSingleton getInstance(){
         Random random = new Random();
         int number = random.nextInt(maxNumber);
