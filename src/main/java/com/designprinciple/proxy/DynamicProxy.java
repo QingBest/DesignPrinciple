@@ -5,7 +5,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * @ClassName DynamicProxy
- * @Description 动态代理
+ * @Description 需要提供被代理对象的类加载器loader，全部接口，以及自己的handler
  * @User Administrator
  * @Date 2019/10/18
  **/
