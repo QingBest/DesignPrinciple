@@ -9,6 +9,6 @@ package com.designprinciple.mediator;
 public class ConcreteMediator extends AbstractMediator{
     public void doSomething() {
         //调用其他同事的业务逻辑
-        super.concreteColleague.selfMethod();
+        super.Colleague.selfMethod();
     }
 }
