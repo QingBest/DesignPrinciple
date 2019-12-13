@@ -12,12 +12,12 @@ public class ConcreteColleagueNew extends AbstractColleague{
         super(mediator);
     }
     //自有方法
-    public void selfMethod(){
+    public void selfMethod2(){
         System.out.println("new selfMethod");
     }
     //依赖方法
     public void depMethod(){
         //自己不能处理的业务逻辑，委托给中介者处理
-        super.mediator.doSomething();
+        super.mediator.doSomething2();
     }
 }

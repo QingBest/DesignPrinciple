@@ -12,6 +12,4 @@ public abstract class AbstractColleague {
     public AbstractColleague(AbstractMediator mediator) {
         this.mediator = mediator;
     }
-
-    public abstract void selfMethod();
 }

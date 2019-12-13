@@ -16,7 +16,7 @@ public class Main {
         //中介者，注入其他同事类，方便调用
         mediator.setConcreteColleague(newColleague);
         //完成自己一些事
-        colleague.selfMethod();
+        colleague.selfMethod1();
         //与其他
         colleague.depMethod();
     }
