@@ -2,7 +2,7 @@ package com.designprinciple.adapter;
 
 /**
  * @ClassName Main
- * @Description TODO
+ * @Description 使用适配器后，两个接口可以一起工作了。具体比如我们之恩能够访问目标角色，然后想要使用源角色，那通过适配器，我们就能调用到源角色了。
  * @User Administrator
  * @Date 2019/11/19
  **/

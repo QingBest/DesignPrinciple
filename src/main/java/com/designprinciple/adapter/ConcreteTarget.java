@@ -8,6 +8,6 @@ package com.designprinciple.adapter;
  **/
 public class ConcreteTarget implements Target {
     public void request() {
-        System.out.println("转换后的角色");
+        System.out.println("目标角色，我已经在工作");
     }
 }
